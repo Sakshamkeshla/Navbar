@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.showpopup{
+    opacity: 1;
+    visibility: visible;
+    transform:  translateY(0px);
+    transition: all 1.5s ease-in-out;
+  }
+  
+  .noshowpopup {
+    opacity: 0;
+    visibility: hidden;
+    transform:  translateY(1000px);
+    transition: all 1.5s ease-in-out;
+  }
+
+
+html::-webkit-scrollbar{
+    width:0px;
+    display:none;
+}
